@@ -1,0 +1,2 @@
+set TF_VAR_db_username="user"
+set TF_VAR_db_password="changeit"
