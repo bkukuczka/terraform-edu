@@ -23,7 +23,7 @@ module "webserver_cluster" {
   source = "../../../../modules/services/webserver-cluster"
 
   ami         = "ami-0faab6bdbac9486fb"
-  server_text = "New server text"
+  server_text = "Hello Terraform, you old prick!"
 
   cluster_name           = "webservers-stage"
   db_remote_state_bucket = "terraform-state-bkukuczka"

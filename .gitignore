@@ -2,4 +2,4 @@
 *.tfstate
 *.tfstate.backup
 .idea
-
+.terraform.lock.hcl
