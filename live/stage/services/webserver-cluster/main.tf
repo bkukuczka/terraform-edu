@@ -20,7 +20,7 @@ provider "aws" {
 }
 
 module "webserver_cluster" {
-  source = "../../../../modules/services/webserver-cluster"
+  source = "../../../../modules/services/hello-world-app"
 
   ami         = "ami-0faab6bdbac9486fb"
   server_text = "Hello Terraform, you old prick!"

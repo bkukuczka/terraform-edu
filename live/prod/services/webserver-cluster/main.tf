@@ -20,7 +20,7 @@ provider "aws" {
 }
 
 module "webserver_cluster" {
-  source = "../../../../modules/services/webserver-cluster"
+  source = "../../../../modules/services/hello-world-app"
 
   cluster_name           = "webservers-prod"
   db_remote_state_bucket = "terraform-state-bkukuczka"
